@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" fill="none">
+  <defs>
+    <linearGradient id="node" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#B9E87B"/>
+      <stop offset="1" stop-color="#5E9B88"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="720" height="520" rx="12" fill="#12201E"/>
+  <path d="M108 355 242 238 366 320 508 154 630 247M242 238l30-126 236 42M366 320l64 106 200-179" stroke="#B9E87B" stroke-opacity=".4" stroke-width="2"/>
+  <path d="M108 355 242 238 366 320 508 154 630 247M242 238l30-126 236 42M366 320l64 106 200-179" stroke="#B9E87B" stroke-opacity=".2" stroke-width="12" filter="url(#glow)"/>
+  <g fill="#0C1514" stroke="#B9E87B" stroke-width="2">
+    <circle cx="108" cy="355" r="15"/><circle cx="242" cy="238" r="19"/><circle cx="272" cy="112" r="12"/>
+    <circle cx="366" cy="320" r="22"/><circle cx="430" cy="426" r="13"/><circle cx="508" cy="154" r="18"/><circle cx="630" cy="247" r="15"/>
+  </g>
+  <circle cx="366" cy="320" r="8" fill="url(#node)" filter="url(#glow)"/>
+  <g fill="#B8C0B5" font-family="monospace" font-size="13" letter-spacing="1.5">
+    <text x="69" y="396">EDGE</text><text x="204" y="278">VALIDATOR</text><text x="247" y="80">RPC</text>
+    <text x="326" y="366">CONSENSUS</text><text x="402" y="463">METRICS</text><text x="477" y="128">CLUSTER</text><text x="602" y="284">ALERTS</text>
+  </g>
+</svg>

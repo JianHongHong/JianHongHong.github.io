@@ -20,6 +20,9 @@ layout: default
       <p>{{ profile.hero_copy }}</p>
       <a class="text-link" href="#work">See selected work <span aria-hidden="true">↓</span></a>
     </div>
+    <figure class="hero-art">
+      <img src="{{ '/assets/illustrations/infrastructure-network.svg' | relative_url }}" alt="Abstract network diagram connecting edge, validator, RPC, consensus, metrics, cluster, and alerting systems" />
+    </figure>
   </section>
 
   <section class="capabilities" aria-labelledby="capabilities-title">
@@ -63,6 +66,13 @@ layout: default
             <li>{{ technology }}</li>
             {% endfor %}
           </ul>
+          {% if case_study.logos %}
+          <div class="tool-logos" aria-label="Selected observability tools">
+            {% for logo in case_study.logos %}
+            <img src="{{ logo.url }}" alt="{{ logo.name }}" title="{{ logo.name }}" />
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
       </article>
       {% endfor %}

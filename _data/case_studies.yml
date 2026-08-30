@@ -11,6 +11,13 @@ items:
       - Grafana
       - Loki
       - Mimir
+    logos:
+      - name: Kubernetes
+        url: https://cdn.simpleicons.org/kubernetes/B9E87B
+      - name: Prometheus
+        url: https://cdn.simpleicons.org/prometheus/B9E87B
+      - name: Grafana
+        url: https://cdn.simpleicons.org/grafana/B9E87B
   - category: Platform engineering
     title: Standardizing protocol onboarding
     description: Created reusable Docker-based templates to make new blockchain protocol onboarding more consistent and repeatable across the platform.
