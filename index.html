@@ -41,7 +41,10 @@ layout: default
     </div>
     <ul aria-label="Blockchain ecosystems">
       {% for protocol in site.data.protocols.items %}
-      <li>{{ protocol }}</li>
+      <li>
+        <img class="protocol-logo" src="{{ protocol.logo_url }}" alt="" aria-hidden="true" loading="lazy" />
+        <span>{{ protocol.name }}</span>
+      </li>
       {% endfor %}
     </ul>
   </section>

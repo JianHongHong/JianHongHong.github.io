@@ -1,8 +1,22 @@
 # Add only blockchain ecosystems that are approved for public mention.
+# Logo URLs use the official website favicon for each listed ecosystem.
 heading: Operational experience across the blockchain stack.
 items:
-  - Cosmos
-  - Ethereum
-  - Solana
-  - Aztec
-  - Hyperliquid
+  - name: Cosmos
+    logo_url: https://www.google.com/s2/favicons?domain=cosmos.network&sz=128
+  - name: Ethereum
+    logo_url: https://cdn.simpleicons.org/ethereum/B9E87B
+  - name: Solana
+    logo_url: https://cdn.simpleicons.org/solana/B9E87B
+  - name: Aztec
+    logo_url: https://www.google.com/s2/favicons?domain=aztec.network&sz=128
+  - name: Hyperliquid
+    logo_url: https://www.google.com/s2/favicons?domain=hyperliquid.xyz&sz=128
+  - name: Canton Network
+    logo_url: https://www.google.com/s2/favicons?domain=canton.network&sz=128
+  - name: Babylon
+    logo_url: https://www.google.com/s2/favicons?domain=babylonlabs.io&sz=128
+  - name: Lombard
+    logo_url: https://www.google.com/s2/favicons?domain=lombard.finance&sz=128
+  - name: Terra
+    logo_url: https://www.google.com/s2/favicons?domain=terra.money&sz=128
