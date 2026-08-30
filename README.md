@@ -28,13 +28,13 @@ Each file contains comments describing its purpose and public-content boundaries
 - `_layouts/default.html` controls the shared document shell and metadata.
 - `styles.css` controls the visual design and responsive layout.
 
-Use a local Jekyll installation for template changes:
+GitHub Pages is the normal preview path for content-only edits. For local template or style work, use a working Jekyll installation:
 
 ```sh
 jekyll serve
 ```
 
-Open `http://127.0.0.1:4000`. Content-only edits can be made directly in GitHub and checked after GitHub Pages finishes building.
+Open `http://127.0.0.1:4000`. If Jekyll is not installed or does not run locally, commit the approved change and verify the GitHub Pages build and rendered production site instead.
 
 ## Publishing
 

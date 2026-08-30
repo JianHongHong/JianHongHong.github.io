@@ -34,13 +34,13 @@ This repository publishes Jian Hong Lee's public portfolio at [jianhonghong.gith
 
 ## Verification
 
-For template or style changes, use a local Jekyll environment:
+For template or style changes, use a working local Jekyll environment:
 
 ```sh
 jekyll serve
 ```
 
-Open `http://127.0.0.1:4000` and check desktop and mobile layouts, visible copy, links, and horizontal overflow. For content-only changes, verify the rendered production site after GitHub Pages reports a successful build. Commit only the files required for the change.
+Open `http://127.0.0.1:4000` and check desktop and mobile layouts, visible copy, links, and horizontal overflow. If local Jekyll is unavailable, verify the rendered production site after GitHub Pages reports a successful build. For content-only changes, production verification is sufficient. Commit only the files required for the change.
 
 ## Deployment
 
