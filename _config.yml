@@ -1,0 +1,7 @@
+title: Jian Hong Lee | Blockchain Infrastructure & DevOps Engineer
+description: Jian Hong Lee is a blockchain infrastructure and DevOps engineer building reliable validator and node operations.
+url: https://jianhonghong.github.io
+markdown: kramdown
+exclude:
+  - AGENTS.md
+  - README.md

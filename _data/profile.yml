@@ -1,0 +1,35 @@
+# Edit this file for the homepage introduction, contact links, focus areas, and tools.
+name: Jian Hong Lee
+short_name: Jian Hong
+initials: JHL
+location: Singapore
+headline: Blockchain Infrastructure & DevOps Engineer
+title: Jian Hong Lee | Blockchain Infrastructure & DevOps Engineer
+description: Jian Hong Lee is a blockchain infrastructure and DevOps engineer building reliable validator and node operations.
+hero_heading: Reliable infrastructure for systems that cannot stop.
+hero_copy: I’m Jian Hong Lee, a Blockchain Infrastructure & DevOps Engineer. I operate validator and node infrastructure across cloud, Kubernetes, and bare-metal environments to make distributed systems observable, repeatable, and secure.
+contact_copy: For infrastructure engineering, DevOps, and blockchain platform opportunities, get in touch.
+email: leejianhong1@gmail.com
+linkedin: https://www.linkedin.com/in/jianhong-lee/
+github: https://github.com/JianHongHong
+focus:
+  - Validator & node operations
+  - Platform automation & delivery
+  - Observability & incident readiness
+  - Secrets & key-management controls
+tools:
+  - AWS
+  - EKS
+  - EC2
+  - Kubernetes
+  - Docker
+  - Terraform
+  - Ansible
+  - Vault
+  - Consul
+  - Prometheus
+  - Grafana
+  - Loki
+  - Jaeger
+  - Jenkins
+  - GitHub Actions

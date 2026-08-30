@@ -4,27 +4,41 @@ Public portfolio for **Jian Hong Lee**, a Blockchain Infrastructure & DevOps Eng
 
 **Live site:** [jianhonghong.github.io](https://jianhonghong.github.io/)
 
+## Editing content
+
+You do not need to edit HTML for normal portfolio updates. Use GitHub's web editor to change the files in [`_data/`](_data/):
+
+- [`profile.yml`](_data/profile.yml): homepage, contact links, focus areas, and tool list
+- [`protocols.yml`](_data/protocols.yml): approved blockchain ecosystems
+- [`case_studies.yml`](_data/case_studies.yml): case-study copy and technologies
+- [`experience.yml`](_data/experience.yml): roles, employers, dates, and experience summaries
+
+Each file contains comments describing its purpose and public-content boundaries. Commit changes to `main`; GitHub Pages rebuilds the site automatically.
+
 ## Stack
 
-A dependency-free static site:
-
-- `index.html` for content and semantic structure
+- Jekyll and Liquid templates for page generation
+- YAML files in `_data/` for editable content
 - `styles.css` for responsive styling
 - GitHub Pages for hosting
 
-## Local preview
+## Editing the design
 
-From the repository root:
+- `index.html` controls the homepage sections and their data bindings.
+- `_layouts/default.html` controls the shared document shell and metadata.
+- `styles.css` controls the visual design and responsive layout.
+
+Use a local Jekyll installation for template changes:
 
 ```sh
-python3 -m http.server 4173 --bind 127.0.0.1
+jekyll serve
 ```
 
-Open [http://127.0.0.1:4173](http://127.0.0.1:4173).
+Open `http://127.0.0.1:4000`. Content-only edits can be made directly in GitHub and checked after GitHub Pages finishes building.
 
 ## Publishing
 
-GitHub Pages serves the root of the `main` branch. Push approved changes to `main`, then verify the deployment at [jianhonghong.github.io](https://jianhonghong.github.io/).
+GitHub Pages builds the root of the `main` branch with Jekyll. Push approved changes to `main`, then verify the deployment at [jianhonghong.github.io](https://jianhonghong.github.io/).
 
 ## Content boundaries
 

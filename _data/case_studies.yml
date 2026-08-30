@@ -1,0 +1,28 @@
+# Describe approved public work only. Do not include private architecture, clients, incidents, or unapproved metrics.
+heading: Infrastructure built for operational confidence.
+intro: Representative, non-confidential case studies drawn from production blockchain and platform engineering work.
+items:
+  - category: Observability
+    title: Making Tendermint operations visible
+    description: Redesigned monitoring for Tendermint blockchain workloads running on Kubernetes, improving the visibility of node health and alerting signals for operators.
+    technologies:
+      - Kubernetes
+      - Prometheus
+      - Grafana
+      - Loki
+      - Mimir
+  - category: Platform engineering
+    title: Standardizing protocol onboarding
+    description: Created reusable Docker-based templates to make new blockchain protocol onboarding more consistent and repeatable across the platform.
+    technologies:
+      - Docker
+      - Templates
+      - Infrastructure automation
+  - category: Validator operations
+    title: Operating distributed validator infrastructure
+    description: Managed validator and node operations across Cosmos-based networks, Ethereum, and Solana, with infrastructure spanning cloud, Kubernetes, and bare-metal environments.
+    technologies:
+      - AWS
+      - EC2
+      - EKS
+      - Bare metal
