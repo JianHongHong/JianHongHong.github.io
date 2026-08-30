@@ -18,3 +18,17 @@ items:
     logo_url: https://www.google.com/s2/favicons?domain=babylonlabs.io&sz=128
   - name: Lombard
     logo_url: https://www.google.com/s2/favicons?domain=lombard.finance&sz=128
+  - name: Sui
+    logo_url: https://www.google.com/s2/favicons?domain=sui.io&sz=128
+  - name: Monad
+    logo_url: https://www.google.com/s2/favicons?domain=monad.xyz&sz=128
+  - name: Injective
+    logo_url: https://www.google.com/s2/favicons?domain=injective.com&sz=128
+  - name: Avalanche
+    logo_url: https://www.google.com/s2/favicons?domain=avax.network&sz=128
+  - name: Celestia
+    logo_url: https://www.google.com/s2/favicons?domain=celestia.org&sz=128
+  - name: Band Protocol
+    logo_url: https://www.google.com/s2/favicons?domain=bandprotocol.com&sz=128
+  - name: NEAR
+    logo_url: https://www.google.com/s2/favicons?domain=near.org&sz=128
