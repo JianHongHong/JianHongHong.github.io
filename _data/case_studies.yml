@@ -1,10 +1,11 @@
 # Describe approved public work only. Do not include private architecture, clients, incidents, or unapproved metrics.
-heading: Infrastructure built for operational confidence.
-intro: Representative, non-confidential case studies drawn from production blockchain and platform engineering work.
+heading: Selected infrastructure work.
+intro: A public-safe view of how I approach production blockchain and platform engineering.
 items:
   - category: Observability
-    title: Making Tendermint operations visible
-    description: Redesigned monitoring for Tendermint blockchain workloads running on Kubernetes, improving the visibility of node health and alerting signals for operators.
+    title: Making blockchain operations visible
+    description: Redesigned monitoring for Tendermint workloads on Kubernetes, giving operators a clearer view of node health, logs, and actionable alerting signals.
+    outcome: Clearer operational signals
     technologies:
       - Kubernetes
       - Prometheus
@@ -20,14 +21,16 @@ items:
         url: https://cdn.simpleicons.org/grafana/B9E87B
   - category: Platform engineering
     title: Standardizing protocol onboarding
-    description: Created reusable Docker-based templates to make new blockchain protocol onboarding more consistent and repeatable across the platform.
+    description: Created reusable, Docker-based templates that made the path for onboarding blockchain protocols more consistent and repeatable.
+    outcome: Repeatable delivery
     technologies:
       - Docker
       - Templates
       - Infrastructure automation
   - category: Validator operations
     title: Operating distributed validator infrastructure
-    description: Managed validator and node operations across Cosmos-based networks, Ethereum, and Solana, with infrastructure spanning cloud, Kubernetes, and bare-metal environments.
+    description: Managed validator and node operations across Cosmos-based networks, Ethereum, and Solana in cloud, Kubernetes, and bare-metal environments.
+    outcome: Resilient day-to-day operations
     technologies:
       - AWS
       - EC2

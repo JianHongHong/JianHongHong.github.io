@@ -1,15 +1,15 @@
 # Keep dates, employers, and descriptions factually current.
-heading: Building operations from the infrastructure upward.
+heading: Experience across the infrastructure lifecycle.
 items:
   - period: 2024 - present
     role: Blockchain Infrastructure Engineer
     company: Galaxy
-    description: Production blockchain infrastructure, protocol onboarding, Kubernetes operations, and monitoring design.
+    description: Build and operate production blockchain infrastructure, with a focus on reliable delivery, observability, and day-to-day operations.
   - period: 2024
     role: DevOps Engineer
     company: Tokka Labs
-    description: Platform observability, Helm deployment templates, and secrets-management practices for distributed systems.
+    description: Improved platform observability, reusable Helm deployment patterns, and secrets-management practices for distributed systems.
   - period: 2020 - 2024
     role: DevOps Engineer
     company: StakeWithUs
-    description: CI/CD, cloud and validator monitoring, and operational security controls for blockchain infrastructure.
+    description: Developed CI/CD workflows, cloud and validator monitoring, and operational security controls for blockchain infrastructure.

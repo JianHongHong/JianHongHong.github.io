@@ -5,31 +5,39 @@ initials: JHL
 location: Singapore
 headline: Blockchain Infrastructure & DevOps Engineer
 title: Jian Hong Lee | Blockchain Infrastructure & DevOps Engineer
-description: Jian Hong Lee is a blockchain infrastructure and DevOps engineer building reliable validator and node operations.
-hero_heading: Reliable infrastructure for systems that cannot stop.
-hero_copy: I’m Jian Hong Lee, a Blockchain Infrastructure & DevOps Engineer. I operate validator and node infrastructure across cloud, Kubernetes, and bare-metal environments to make distributed systems observable, repeatable, and secure.
-contact_copy: For infrastructure engineering, DevOps, and blockchain platform opportunities, get in touch.
+description: Jian Hong Lee is a Blockchain Infrastructure & DevOps Engineer focused on reliable validator operations, platform automation, observability, and infrastructure security.
+hero_heading: I build reliable infrastructure for blockchain networks.
+hero_copy: I’m Jian Hong Lee, a Blockchain Infrastructure & DevOps Engineer in Singapore. I turn complex validator, node, and platform operations into systems that are observable, repeatable, and secure.
+contact_copy: If you are building dependable infrastructure for blockchain or distributed systems, I’d be glad to connect.
 email: leejianhong1@gmail.com
 linkedin: https://www.linkedin.com/in/jianhong-lee/
 github: https://github.com/JianHongHong
-focus:
-  - Validator & node operations
-  - Platform automation & delivery
-  - Observability & incident readiness
-  - Secrets & key-management controls
-tools:
-  - AWS
-  - EKS
-  - EC2
-  - Kubernetes
-  - Docker
-  - Terraform
-  - Ansible
-  - Vault
-  - Consul
-  - Prometheus
-  - Grafana
-  - Loki
-  - Jaeger
-  - Jenkins
-  - GitHub Actions
+signals:
+  - label: Based in
+    value: Singapore
+  - label: Core domain
+    value: Blockchain infrastructure
+  - label: Environments
+    value: Cloud, Kubernetes, bare metal
+expertise:
+  - number: "01"
+    title: Validator & node operations
+    description: Operate stateful blockchain workloads with a focus on resilience, safe change, and clear operational ownership.
+  - number: "02"
+    title: Platform automation & delivery
+    description: Build repeatable paths from infrastructure provisioning through application delivery and protocol onboarding.
+  - number: "03"
+    title: Observability & incident readiness
+    description: Design monitoring and logging that help teams understand system health and act on meaningful signals.
+  - number: "04"
+    title: Infrastructure security
+    description: Apply practical controls for secrets, access, and key-sensitive operational workflows.
+tool_groups:
+  - label: Platforms
+    items: AWS · EC2 · EKS · Kubernetes · Docker
+  - label: Automation & delivery
+    items: Terraform · Ansible · Jenkins · GitHub Actions
+  - label: Observability
+    items: Prometheus · Grafana · Loki · Jaeger
+  - label: Security & service discovery
+    items: Vault · Consul

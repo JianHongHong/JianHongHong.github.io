@@ -1,6 +1,6 @@
 # Add only blockchain ecosystems that are approved for public mention.
 # Logo URLs use the official website favicon for each listed ecosystem.
-heading: Operational experience across the blockchain stack.
+heading: Networks and ecosystems I have worked across.
 items:
   - name: Cosmos
     logo_url: https://www.google.com/s2/favicons?domain=cosmos.network&sz=128
